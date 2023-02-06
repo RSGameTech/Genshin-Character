@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btnPyro"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="#EB7839"
+                android:text="Pyro" />
+
+            <Button
+                android:id="@+id/btnHydro"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="#60C0F2"
+                android:text="Hydro" />
+
+            <Button
+                android:id="@+id/btnAnemo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="#73C1A7"
+                android:text="Anemo" />
+
+            <Button
+                android:id="@+id/btnDendro"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="#9CC829"
+                android:text="Dendro" />
+
+            <Button
+                android:id="@+id/btnElectro"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="#B38CC1"
+                android:text="Electro" />
+
+            <Button
+                android:id="@+id/btnCryo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="#A4D6E3"
+                android:text="Cryo" />
+
+            <Button
+                android:id="@+id/btnGeo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="#F4B623"
+                android:text="Geo" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
