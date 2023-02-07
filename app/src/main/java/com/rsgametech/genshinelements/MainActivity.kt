@@ -26,5 +26,25 @@ class MainActivity : AppCompatActivity() {
             intent = Intent(applicationContext, Hydro::class.java)
             startActivity(intent)
         }
+        buttonAnemo.setOnClickListener {
+            intent = Intent(applicationContext, Anemo::class.java)
+            startActivity(intent)
+        }
+        buttonDendro.setOnClickListener {
+            intent = Intent(applicationContext, Dendro::class.java)
+            startActivity(intent)
+        }
+        buttonElectro.setOnClickListener {
+            intent = Intent(applicationContext, Electro::class.java)
+            startActivity(intent)
+        }
+        buttonCryo.setOnClickListener {
+            intent = Intent(applicationContext, Cryo::class.java)
+            startActivity(intent)
+        }
+        buttonGeo.setOnClickListener {
+            intent = Intent(applicationContext, Geo::class.java)
+            startActivity(intent)
+        }
     }
 }

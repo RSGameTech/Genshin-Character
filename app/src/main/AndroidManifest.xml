@@ -12,6 +12,21 @@
         android:theme="@style/Theme.GenshinElements"
         tools:targetApi="31">
         <activity
+            android:name=".Geo"
+            android:exported="false" />
+        <activity
+            android:name=".Cryo"
+            android:exported="false" />
+        <activity
+            android:name=".Electro"
+            android:exported="false" />
+        <activity
+            android:name=".Dendro"
+            android:exported="false" />
+        <activity
+            android:name=".Anemo"
+            android:exported="false" />
+        <activity
             android:name=".Hydro"
             android:exported="false" />
         <activity
